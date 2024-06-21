@@ -1,0 +1,59 @@
+@import '../../style/App.scss';
+
+#about {
+  padding: 60px 0;
+}
+
+#about {
+  padding: 60px 0;
+  width: 100%;
+
+  .about-more-item {
+    padding-top: 100px;
+  }
+
+  .about-info {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+    p {
+      padding-bottom: 50px;
+    }
+  }
+
+  .about-image {
+    max-width: 570px;
+    height: auto;
+    float: right;
+  }
+
+  .about-image.left {
+    float: left;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  #about {
+    padding-top: 140px;
+
+    .about-info {
+      padding-top: 0px;
+    }
+
+    .about-image {
+      float: none;
+      margin: 0 auto;
+      margin-top: 50px;
+    }
+  }
+}
+
+@media screen and (max-width: 990px) {
+  #about {
+    text-align: center;
+    .about-info {
+      text-align: center;
+    }
+  }
+}
