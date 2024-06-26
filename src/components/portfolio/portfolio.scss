@@ -20,41 +20,6 @@
       background-color: $main-color;
     }
   }
-  .portfolio__filter {
-    display: flex;
-    justify-content: flex-end;
-    cursor: pointer;
-    margin-bottom: 50px;
-    background-attachment: fixed;
-    max-width: 200px;
-    float: right;
-    position: relative;
-    padding: 8px 10px;
-
-    p {
-      padding-right: 10px;
-    }
-
-    .portfolio__filter-menu {
-      background-color: $light-color;
-      position: absolute;
-      top: 40px;
-      left: 0;
-      width: 100%;
-      height: 100px;
-      text-align: center;
-      border-radius: 5px;
-      z-index: 999;
-      p {
-        padding: 8px 0;
-        margin: 2px 0;
-        transition: 0.3s ease;
-      }
-      p:hover {
-        background-color: $main-color;
-      }
-    }
-  }
 }
 
 .my-masonry-grid {
@@ -80,13 +45,6 @@
       ul {
         justify-content: center;
       }
-    }
-    .portfolio__filter {
-      justify-content: center;
-      max-width: 200px;
-      margin: 30px auto;
-      float: none;
-
     }
   }
 }

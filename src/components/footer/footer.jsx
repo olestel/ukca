@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 import "./footer.scss";
 
-import Logo from "../../assets/footer/logo.svg";
+import { ReactComponent as Logo } from "../../assets/footer/logo.svg";
 import { ReactComponent as Arrow } from "../../assets/footer/arrow.svg";
 import { ReactComponent as FacebookIcon } from "../../assets/contact/facebook.svg";
 
@@ -17,7 +17,7 @@ const partnerBox = () => {
     <div className="footer">
       <div className="wrapper">
         <div className="footer-box footer-logo">
-          <img src={Logo} alt="logo" />
+          <Logo className="ukca-logo" />
           <p>© 2024 - UKCA, All Right Reserved</p>
         </div>
         <FacebookIcon

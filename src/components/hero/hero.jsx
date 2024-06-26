@@ -16,7 +16,7 @@ const hero = () => (
           <div className="hero-info">
             <h1 className="weight800 font40">Hello!!!</h1>
             <h1 className="weight800 font35">
-              WE ARE UKRAINIAN TEAM WITH CANADIAN EXPERIENCE
+              WE ARE roofing company with Canadian experience and Ukrainian team
             </h1>
             <p className="font12">
               We provide free estimates. Some of the benefits of our roof system

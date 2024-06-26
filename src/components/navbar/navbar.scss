@@ -11,6 +11,11 @@
   transition:  0.3s ease;
   z-index: 100;
 
+  svg {
+    width: 90px;
+    height: 70px;
+  }
+
   .mobile__menu {
     display: none;
     padding: 10px 15px;
@@ -65,6 +70,10 @@
   .mobile__navbar-logo {
     padding: 10px;
     cursor: pointer;
+    svg {
+      width: 180px;
+      height: 150px;
+    }
   }
   .mobile__navbar-menu {
     padding-top: 20%;

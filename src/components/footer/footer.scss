@@ -26,6 +26,11 @@
   .footer-box {
     display: flex;
     align-items: center;
+  
+    svg.ukca-logo {
+      width: 100px;
+      height: 100px;
+    }
 
     p {
       color: $white-color;
