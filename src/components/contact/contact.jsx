@@ -6,7 +6,7 @@ import Title from "../ui-components/title/title";
 import ContactInfo from "./contactInfo/contactInfo";
 import Modal from "../contact-modal/Modal";
 
-import ContactBackground from "../../assets/contact/bg.png";
+import ContactUsImg from "../../assets/contact/contact-us-img.png";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -31,10 +31,10 @@ const Contact = () => {
     };
 
     // YOUR EMAIL.JS API KEY IN FORMAT user_xxxxxxxxxxxxxxxxxx
-    let API_KEY = "";
+    let API_KEY = "GcENqPceozdJqnDvl";
 
     // YOUR EMAIL.JS TEMPLATE ID
-    let TEMPLATE_ID = "";
+    let TEMPLATE_ID = "template_3bmyvii";
 
     emailjs.send("default_service", TEMPLATE_ID, template_params, API_KEY).then(
       function (response) {
@@ -142,7 +142,7 @@ const Contact = () => {
           </Grid>
           <Grid item md={12} lg={6}>
             <div className="flex-center">
-              <img src={ContactBackground} alt="contact background" />
+              <img src={ContactUsImg} alt="contact background" />
             </div>
           </Grid>
         </Grid>

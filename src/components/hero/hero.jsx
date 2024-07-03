@@ -3,7 +3,7 @@ import React from "react";
 // SCSS
 import "./hero.scss";
 //Assets
-import HeroImage from "../../assets/hero/hero-image.png";
+import HeroImg from "../../assets/hero/hero-img.png";
 //Components
 import Button from "../ui-components/button/button";
 import { Grid } from "@mui/material";
@@ -28,7 +28,7 @@ const hero = () => (
         </Grid>
         <Grid item md={12} lg={6}>
           <div className="hero-image">
-            <img src={HeroImage} alt="hero" />
+            <img src={HeroImg} alt="hero" />
           </div>
         </Grid>
       </Grid>

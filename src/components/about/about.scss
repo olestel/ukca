@@ -51,9 +51,20 @@
 
 @media screen and (max-width: 990px) {
   #about {
+    padding-top: 0;
     text-align: center;
     .about-info {
       text-align: center;
+      .button {
+        margin: auto;
+      }
+    }
+    .about-image {
+      margin: auto;
+      margin-top: 50px;
+    }
+    .about-more-item {
+      padding-top: 0;
     }
   }
 }

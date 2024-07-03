@@ -3,6 +3,7 @@ import React from "react";
 import "./about.scss";
 // Components
 import AboutItem from "./aboutItem/aboutItem";
+import SteelRoofingImg from "../../assets/about/steel-roofing-img.png";
 
 const about = () => (
   <div id="about">
@@ -21,6 +22,7 @@ const about = () => (
       title="Steel roofing sheets"
       text="Our first-class steel roofs have protected homes for over 60 years. Their durability, quality and sustainable advantages are unchallenged. From our wide selection of colours, coatings and styles you will definitely find the perfect option for your home, whether it be modern, traditional or something else."
       isLeft
+      image={SteelRoofingImg}
     />
     <AboutItem
       title="Class A Fire Rating"

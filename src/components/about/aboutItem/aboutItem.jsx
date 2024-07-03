@@ -15,7 +15,7 @@ const AboutItem = (props) => (
       {props.isLeft && (
         <Grid item md={12} lg={6}>
           <div className="about-image left">
-            <img src={AboutImage} alt="hero" />
+            <img src={props.image || AboutImage} alt="hero" />
           </div>
         </Grid>
       )}
@@ -26,7 +26,7 @@ const AboutItem = (props) => (
       {!props.isLeft && (
         <Grid item md={12} lg={6}>
           <div className="about-image">
-            <img src={AboutImage} alt="hero" />
+            <img src={props.image || AboutImage} alt="hero" />
           </div>
         </Grid>
       )}
