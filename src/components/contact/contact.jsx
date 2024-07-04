@@ -6,7 +6,7 @@ import Title from "../ui-components/title/title";
 import ContactInfo from "./contactInfo/contactInfo";
 import Modal from "../contact-modal/Modal";
 
-import ContactUsImg from "../../assets/contact/contact-us-img.png";
+import ContactUsImg from "../../assets/contact/contact-us-img.jpg";
 
 const Contact = () => {
   const [name, setName] = useState("");

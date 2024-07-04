@@ -3,7 +3,11 @@ import React from "react";
 import "./about.scss";
 // Components
 import AboutItem from "./aboutItem/aboutItem";
-import SteelRoofingImg from "../../assets/about/steel-roofing-img.png";
+import SteelRoofingImg from "../../assets/about/steel-roofing-img.jpg";
+import AboutOurImg from "../../assets/about/about-our.jpg";
+import ClassAFireImg from "../../assets/about/class-a-fire.jpg";
+import QuiteImg from "../../assets/about/quite.jpg";
+import WarrantyImg from "../../assets/about/warranty.jpg";
 
 const about = () => (
   <div id="about">
@@ -17,6 +21,7 @@ const about = () => (
         sustainable and durable products guarantee you a worry-free roof
         that lasts for decades.
       "
+      image={AboutOurImg}
     />
     <AboutItem
       title="Steel roofing sheets"
@@ -27,15 +32,18 @@ const about = () => (
     <AboutItem
       title="Class A Fire Rating"
       text="Fires from electrical malfunction, lightning strikes, and even wildfires are far less likely to catch when you have a metal roof. Metal roofs will never burn and offer Class A fire rating."
+      image={ClassAFireImg}
     />
     <AboutItem
       title="Quite"
       text="Thanks to its unique stone coating and specially designed installation system, noise from rain and hail is minimized to a level that can surpass any other roofing material."
       isLeft
+      image={QuiteImg}
     />
     <AboutItem
       title="Warranty"
       text="Expected service life approximately 60 years. Technical warranty 30 years . Maintenance warranty 15 years."
+      image={WarrantyImg}
     />
   </div>
 );

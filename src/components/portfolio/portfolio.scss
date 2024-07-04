@@ -3,6 +3,11 @@
 #portfolio {
   padding: 20px 0 40px 0;
 
+  .project-btn-container div button {
+    margin: 0;
+    margin-right: 16px;
+  }
+
   .portfolio__nav {
     ul {
       display: flex;
@@ -45,6 +50,19 @@
       ul {
         justify-content: center;
       }
+    }
+    .project-btn-container {
+      flex-direction: column;
+    }
+    .project-btn-container .button {
+      height: 52px;
+    }
+    .project-btn-container div {
+      height: 52px;
+      margin-bottom: 26px;
+    }
+    .project-btn-container div button {
+      margin-right: 0;
     }
   }
 }

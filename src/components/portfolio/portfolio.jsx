@@ -4,7 +4,12 @@ import { Grid } from "@mui/material";
 //Scss
 import "./portfolio.scss";
 //Assets
-import Preview from "../../assets/portfolio/preview.png";
+import Preview6 from "../../assets/portfolio/6.JPG";
+import Preview10 from "../../assets/portfolio/10.JPG";
+import Preview13 from "../../assets/portfolio/13.JPG";
+import Preview21 from "../../assets/portfolio/21.jpg";
+import Preview26 from "../../assets/portfolio/26.jpg";
+import Preview29 from "../../assets/portfolio/29.jpg";
 //Components
 import Button from "../ui-components/button/button";
 import Title from "../ui-components/title/title";
@@ -17,32 +22,32 @@ const Portfolio = () => {
   const projects = [
     {
       id: "1",
-      preview: Preview,
+      preview: Preview6,
       title: "Project name",
     },
     {
       id: "2",
-      preview: Preview,
+      preview: Preview10,
       title: "Project name",
     },
     {
       id: "3",
-      preview: Preview,
+      preview: Preview13,
       title: "Project name",
     },
     {
       id: "4",
-      preview: Preview,
+      preview: Preview21,
       title: "Project name",
     },
     {
       id: "5",
-      preview: Preview,
+      preview: Preview26,
       title: "Project name",
     },
     {
       id: "6",
-      preview: Preview,
+      preview: Preview29,
       title: "Project name",
     },
   ];
@@ -78,11 +83,19 @@ const Portfolio = () => {
               key={project.id}
               title={project.title}
               tag={project.tag}
-              handleMoreImages={() => setIsModalOpen(true)}
             />
           ))}
         </Masonry>
-        <Grid container className="flex-center padding40">
+        <Grid container className="flex-center padding40 project-btn-container">
+          <div className="small__button">
+            <button
+              aria-label="send message"
+              value="More projects photo"
+              onClick={() => setIsModalOpen(true)}
+            >
+              More projects photo
+            </button>
+          </div>
           <Button label="HAVE WORK FOR US?" target={"contact"} />
         </Grid>
       </div>
