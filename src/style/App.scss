@@ -103,6 +103,20 @@ ul {
 ul li {
   list-style: none;
 }
+.req-info {
+  z-index: 10000;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 4px 0;
+  background: orange;
+  flex-wrap: wrap;
+
+  a {
+    margin-left: 4px;
+  }
+}
 .flex {
   display: flex;
 }

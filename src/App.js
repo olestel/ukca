@@ -59,6 +59,9 @@ class App extends React.Component {
 
     return (
       <div className="App">
+        {!this.state.mobileNavbarOpen && <div className="req-info">
+          Please give us a call today for a free estimate <a href="tel:+14126992781">+1 (412) 699-2781</a>
+        </div>}
         {mobileNavbar}
         {backdrop}
         <DesktopNav
